@@ -9,8 +9,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class StreamSearch {
 
@@ -18,27 +18,27 @@ public class StreamSearch {
     public static List<User> list = new ArrayList<>();
 
     /**
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @BeforeEach
     public void initList() {
-        list.add(new User("公众号Java技术栈-Petty", 22, 1));
-        list.add(new User("公众号Java技术栈-Tom", 38, 1));
-        list.add(new User("公众号Java技术栈-Jessica", 43, 0));
-        list.add(new User("公众号Java技术栈-John", 15, 1));
-        list.add(new User("公众号Java技术栈-Lily", 25, 0));
-        list.add(new User("公众号Java技术栈-Lambs", 28, 0));
-        list.add(new User("公众号Java技术栈-Jack", 45, 1));
-        list.add(new User("公众号Java技术栈-Addy", 9, 0));
-        list.add(new User("公众号Java技术栈-Bob", 61, 1));
-        list.add(new User("公众号Java技术栈-Candy", 26, 0));
+        list.add(new User("公众号：Java技术栈-Petty", 22, 1));
+        list.add(new User("公众号：Java技术栈-Tom", 38, 1));
+        list.add(new User("公众号：Java技术栈-Jessica", 43, 0));
+        list.add(new User("公众号：Java技术栈-John", 15, 1));
+        list.add(new User("公众号：Java技术栈-Lily", 25, 0));
+        list.add(new User("公众号：Java技术栈-Lambs", 28, 0));
+        list.add(new User("公众号：Java技术栈-Jack", 45, 1));
+        list.add(new User("公众号：Java技术栈-Addy", 9, 0));
+        list.add(new User("公众号：Java技术栈-Bob", 61, 1));
+        list.add(new User("公众号：Java技术栈-Candy", 26, 0));
     }
 
     /**
      * 集合过滤
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void filter() {
@@ -48,8 +48,8 @@ public class StreamSearch {
 
     /**
      * 集合搜索第一个
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void findFirst() {
@@ -60,8 +60,8 @@ public class StreamSearch {
 
     /**
      * 集合搜索任意一个
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void findAny() {
@@ -72,8 +72,8 @@ public class StreamSearch {
 
     /**
      * 集合匹配任意元素
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void anyMatch() {
@@ -83,8 +83,8 @@ public class StreamSearch {
 
     /**
      * 集合不匹配任意元素
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void noneMatch() {
@@ -94,8 +94,8 @@ public class StreamSearch {
 
     /**
      * 集合匹配全部元素
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void allMatch() {
@@ -104,8 +104,8 @@ public class StreamSearch {
     }
 
     /**
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @AllArgsConstructor
     @Data

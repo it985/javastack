@@ -7,8 +7,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class StreamThreadSafeTest {
 
@@ -16,8 +16,8 @@ public class StreamThreadSafeTest {
 
 
     /**
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void test1() {
@@ -31,8 +31,8 @@ public class StreamThreadSafeTest {
     }
 
     /**
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void test2() {

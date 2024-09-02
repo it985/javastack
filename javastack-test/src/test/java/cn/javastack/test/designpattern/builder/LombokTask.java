@@ -5,8 +5,8 @@ import lombok.Builder;
 import java.util.Date;
 
 /**
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 @Builder
 public class LombokTask {

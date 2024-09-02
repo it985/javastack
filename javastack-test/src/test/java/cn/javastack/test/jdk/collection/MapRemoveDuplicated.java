@@ -7,8 +7,8 @@ import java.util.stream.Collectors;
 
 /**
  * 删除 Map 重复元素
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class MapRemoveDuplicated {
 
@@ -25,8 +25,8 @@ public class MapRemoveDuplicated {
 
     /**
      * 新创建 Map 添加不重复元素
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void removeDuplicated1() {
@@ -41,8 +41,8 @@ public class MapRemoveDuplicated {
 
     /**
      * 添加 Set 再删除重复元素
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void removeDuplicated2() {
@@ -59,8 +59,8 @@ public class MapRemoveDuplicated {
 
     /**
      * 使用 Stream 删除重复元素
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void removeDuplicated3() {

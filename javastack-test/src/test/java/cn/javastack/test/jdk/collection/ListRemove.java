@@ -10,8 +10,8 @@ import java.util.stream.Collectors;
 
 /**
  * 循环删除 List 元素
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class ListRemove {
 
@@ -19,8 +19,8 @@ public class ListRemove {
 
     /**
      * 普通 for 循环删除
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void remove1() {
@@ -36,8 +36,8 @@ public class ListRemove {
 
     /**
      * 普通 for 循环删除（size提出变量）
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void remove2() {
@@ -54,8 +54,8 @@ public class ListRemove {
 
     /**
      * 普通 for 循环倒序删除
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void remove3() {
@@ -71,8 +71,8 @@ public class ListRemove {
 
     /**
      * 增强 for 循环删除
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void remove4() {
@@ -87,8 +87,8 @@ public class ListRemove {
 
     /**
      * 迭代器循环删除（iterator.remove）
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void remove5() {
@@ -104,8 +104,8 @@ public class ListRemove {
 
     /**
      * 迭代器循环删除（list.remove）
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void remove6() {
@@ -121,8 +121,8 @@ public class ListRemove {
 
     /**
      * list.forEach 删除
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void remove7() {
@@ -137,8 +137,8 @@ public class ListRemove {
 
     /**
      * stream filter 过滤
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void remove8() {

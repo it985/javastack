@@ -1,4 +1,4 @@
-package cn.javastack.test.designpattern.strategy;
+package cn.javastack.test.designpattern.template;
 
 /**
  * 支付接口

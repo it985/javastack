@@ -5,8 +5,8 @@ import cn.javastack.test.designpattern.decorator.decorator.WallBeautifyDecorator
 
 /**
  * 墙面装修装饰器角色实现（挂壁画）
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class WallBeautifyHang extends WallBeautifyDecorator {
 

@@ -7,8 +7,8 @@ import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.LongAdder;
 
 /**
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class LongAdderTest {
 
@@ -33,8 +33,8 @@ public class LongAdderTest {
     }
 
     /**
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     private static void atomicLongTest() throws InterruptedException {
         long start = System.currentTimeMillis();
@@ -56,8 +56,8 @@ public class LongAdderTest {
     }
 
     /**
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     private static void longAdderTest() throws InterruptedException {
         long start = System.currentTimeMillis();

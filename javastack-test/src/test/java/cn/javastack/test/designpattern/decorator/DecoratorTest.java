@@ -8,8 +8,8 @@ import cn.javastack.test.designpattern.decorator.concretedecorator.WallBeautifyP
 
 /**
  * 装饰器模式测试类
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class DecoratorTest {
 

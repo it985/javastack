@@ -6,8 +6,8 @@ import java.util.Map;
 
 /**
  * Map 排序
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class MapOrder {
 
@@ -19,8 +19,8 @@ public class MapOrder {
 
     /**
      * HashMap排序
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     private static void hashOrder() {
         Map<String, String> hashMap = new HashMap<>();
@@ -37,8 +37,8 @@ public class MapOrder {
 
     /**
      * 插入排序
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     private static void insertOrder() {
         Map<String, String> linkedHashMap = new LinkedHashMap<>();
@@ -55,8 +55,8 @@ public class MapOrder {
 
     /**
      * 访问排序
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     private static void accessOrder() {
         Map<String, String> linkedHashMap = new LinkedHashMap<>(8, 0.75f, true);
@@ -80,8 +80,8 @@ public class MapOrder {
 
     /**
      * 遍历打印 Map
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     private static void print(String info, Map<String, String> map) {
         System.out.println(info);

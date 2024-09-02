@@ -4,8 +4,8 @@ import org.springframework.stereotype.Service;
 
 /**
  * 支付宝
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 @Service("Alipay")
 public class Alipay implements IPayment {

@@ -10,8 +10,8 @@ import java.lang.reflect.InvocationTargetException;
 
 /**
  * 女朋友类
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 @Data
 @NoArgsConstructor
@@ -31,16 +31,16 @@ class GirlFriend implements Cloneable, Serializable {
 
 /**
  * 创建对象的 5 种方式
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class ObjectGenerator {
 
 
     /**
      * new一个对象
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void girlFriend1() {
@@ -50,8 +50,8 @@ public class ObjectGenerator {
 
     /**
      * 克隆一个对象
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void girlFriend2() throws CloneNotSupportedException {
@@ -62,8 +62,8 @@ public class ObjectGenerator {
 
     /**
      * 类派发一个对象
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void girlFriend3() throws InstantiationException, IllegalAccessException {
@@ -74,8 +74,8 @@ public class ObjectGenerator {
 
     /**
      * 反射一个对象
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void girlFriend4() throws InstantiationException, IllegalAccessException, ClassNotFoundException {
@@ -86,8 +86,8 @@ public class ObjectGenerator {
 
     /**
      * 构造一个对象
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void girlFriend5() throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
@@ -98,8 +98,8 @@ public class ObjectGenerator {
 
     /**
      * 反序列化一个对象
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void girlFriend6() throws IOException, ClassNotFoundException {
