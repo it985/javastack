@@ -10,8 +10,8 @@ import java.util.stream.Collectors;
 
 /**
  * 删除 List 重复元素
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class ListRemoveDuplicated {
 
@@ -22,8 +22,8 @@ public class ListRemoveDuplicated {
 
     /**
      * for 循环添加去重
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void remove1() {
@@ -39,8 +39,8 @@ public class ListRemoveDuplicated {
 
     /**
      * for 双循环删除
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void remove2() {
@@ -57,8 +57,8 @@ public class ListRemoveDuplicated {
 
     /**
      * for 循环重复坐标删除
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void remove3() {
@@ -74,8 +74,8 @@ public class ListRemoveDuplicated {
 
     /**
      * Set 去重
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void remove4() {
@@ -86,8 +86,8 @@ public class ListRemoveDuplicated {
 
     /**
      * Stream 去重
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void remove5() {

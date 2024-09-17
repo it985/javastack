@@ -6,8 +6,8 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.LongAccumulator;
 
 /**
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class LongAccumulatorTest {
 
@@ -25,8 +25,8 @@ public class LongAccumulatorTest {
     private static LongAccumulator longAccumulatorMax = new LongAccumulator(Long::max, 50);
 
     /**
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     public static void main(String[] args) throws InterruptedException {
         // 和 LongAdder 一致
@@ -40,8 +40,8 @@ public class LongAccumulatorTest {
     }
 
     /**
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     private static void add(LongAccumulator longAccumulator, long number) throws InterruptedException {
         long start = System.currentTimeMillis();
@@ -65,8 +65,8 @@ public class LongAccumulatorTest {
     }
 
     /**
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     private static void max(LongAccumulator longAccumulator) throws InterruptedException {
         long start = System.currentTimeMillis();

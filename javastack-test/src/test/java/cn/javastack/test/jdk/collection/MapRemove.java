@@ -12,8 +12,8 @@ import java.util.stream.Collectors;
 
 /**
  * 删除 Map 元素
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class MapRemove {
 
@@ -30,8 +30,8 @@ public class MapRemove {
 
     /**
      * 使用 for 循环删除
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void remove1() {
@@ -46,8 +46,8 @@ public class MapRemove {
 
     /**
      * 使用 forEach 循环删除
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void remove2() {
@@ -62,8 +62,8 @@ public class MapRemove {
 
     /**
      * 使用 Iterator 迭代器删除
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void remove3() {
@@ -80,8 +80,8 @@ public class MapRemove {
 
     /**
      * 使用 removeIf 删除
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void remove4() {
@@ -91,8 +91,8 @@ public class MapRemove {
 
     /**
      * 使用 Stream 删除
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void remove5() {

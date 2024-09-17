@@ -3,8 +3,8 @@ package cn.javastack.test.designpattern.builder;
 import java.util.Date;
 
 /**
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class Task {
 
@@ -25,8 +25,8 @@ public class Task {
     }
 
     /**
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     public static class TaskBuilder {
 
@@ -62,7 +62,7 @@ public class Task {
             return this;
         }
 
-        public Task build(){
+        public Task build() {
             return new Task(this);
         }
 

@@ -4,8 +4,8 @@ import org.springframework.stereotype.Service;
 
 /**
  * 微信支付
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 @Service("WechatPay")
 public class WechatPay implements IPayment {

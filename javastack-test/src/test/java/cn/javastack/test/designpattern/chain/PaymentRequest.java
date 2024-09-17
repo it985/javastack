@@ -6,7 +6,7 @@ import lombok.RequiredArgsConstructor;
 /**
  * 支付请求
  * @author: R哥
- * @from: 公众号Java技术栈
+ * @from: 公众号：Java技术栈
  */
 @Data
 @RequiredArgsConstructor

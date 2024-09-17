@@ -5,8 +5,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class StreamSpeedTest {
 
@@ -40,8 +40,8 @@ public class StreamSpeedTest {
 
     /**
      * 顺序流排序
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     private static void streamSort() {
         long start = System.currentTimeMillis();
@@ -54,8 +54,8 @@ public class StreamSpeedTest {
 
     /**
      * 并行流排序
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     private static void parallelStreamSort() {
         long start = System.currentTimeMillis();
@@ -68,8 +68,8 @@ public class StreamSpeedTest {
 
     /**
      * 顺序流数据处理
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     private static void streamProcess() {
         long start = System.currentTimeMillis();
@@ -82,8 +82,8 @@ public class StreamSpeedTest {
 
     /**
      * 并行流数据处理
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     private static void parallelStreamProcess() {
         long start = System.currentTimeMillis();
@@ -97,8 +97,8 @@ public class StreamSpeedTest {
 
     /**
      * 数据处理
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     private static SortTest.User process(SortTest.User user) {
         try {

@@ -6,8 +6,8 @@ import java.util.concurrent.Exchanger;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class ExchangeData {
 
@@ -17,7 +17,7 @@ public class ExchangeData {
 
         new Thread(() -> {
             try {
-                Object data = "-公众号Java技术栈AAA";
+                Object data = "-公众号：Java技术栈AAA";
                 System.out.println(Thread.currentThread().getName() + data);
 
                 // 开始交换数据
@@ -30,7 +30,7 @@ public class ExchangeData {
 
         new Thread(() -> {
             try {
-                Object data = "-公众号Java技术栈BBB";
+                Object data = "-公众号：Java技术栈BBB";
                 System.out.println(Thread.currentThread().getName() + data);
 
                 // 开始交换数据
@@ -48,7 +48,7 @@ public class ExchangeData {
 
         new Thread(() -> {
             try {
-                Object data = "-公众号Java技术栈AAA";
+                Object data = "-公众号：Java技术栈AAA";
                 System.out.println(Thread.currentThread().getName() + data);
 
                 // 开始交换数据
@@ -66,7 +66,7 @@ public class ExchangeData {
 
         Thread thread = new Thread(() -> {
             try {
-                Object data = "-公众号Java技术栈AAA";
+                Object data = "-公众号：Java技术栈AAA";
                 System.out.println(Thread.currentThread().getName() + data);
 
                 // 开始交换数据

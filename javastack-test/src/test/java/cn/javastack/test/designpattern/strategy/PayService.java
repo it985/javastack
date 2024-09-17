@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 支付服务
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 @RestController
 public class PayService {
@@ -26,7 +26,7 @@ public class PayService {
      */
     @RequestMapping("/pay")
     public PayResult pay(@RequestParam("amount") int amount,
-                    @RequestParam("paymentType") String paymentType) {
+                         @RequestParam("paymentType") String paymentType) {
         Order order = new Order();
         order.setAmount(amount);
         order.setPaymentType(paymentType);

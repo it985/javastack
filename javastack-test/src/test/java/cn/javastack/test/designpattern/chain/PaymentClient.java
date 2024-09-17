@@ -3,7 +3,7 @@ package cn.javastack.test.designpattern.chain;
 /**
  * 支付客户端
  * @author: R哥
- * @from: 公众号Java技术栈
+ * @from: 公众号：Java技术栈
  */
 public class PaymentClient {
     public static void main(String[] args) {

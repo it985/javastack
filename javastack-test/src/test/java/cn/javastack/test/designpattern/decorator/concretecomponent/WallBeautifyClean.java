@@ -4,8 +4,8 @@ import cn.javastack.test.designpattern.decorator.component.WallBeautify;
 
 /**
  * 墙面装修基本实现（清理墙面）
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class WallBeautifyClean implements WallBeautify {
 

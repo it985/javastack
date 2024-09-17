@@ -5,8 +5,8 @@ import cn.javastack.test.designpattern.factory.simple.Customer;
 
 /**
  * 代理商工厂
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class AgentFactory implements CustomerFactory {
 

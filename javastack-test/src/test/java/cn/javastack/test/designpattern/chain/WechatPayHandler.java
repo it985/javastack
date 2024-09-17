@@ -3,7 +3,7 @@ package cn.javastack.test.designpattern.chain;
 /**
  * 微信支付处理器
  * @author: R哥
- * @from: 公众号Java技术栈
+ * @from: 公众号：Java技术栈
  */
 public class WechatPayHandler extends PaymentHandler {
 

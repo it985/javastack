@@ -1,11 +1,12 @@
 package cn.javastack.test.designpattern.observer;
+
 import lombok.Getter;
 
 import java.util.Observable;
 import java.util.Observer;
 
 /**
- * 观察目标：栈长
+ * 观察目标：R哥
  * 来源微信公众号：Java技术栈
  */
 @Getter
@@ -17,7 +18,7 @@ public class JavaStackObservable extends Observable {
      * 发表文章
      * @param article
      */
-    public void publish(String article){
+    public void publish(String article) {
         // 发表文章
         this.article = article;
 

@@ -4,16 +4,16 @@ import java.util.Random;
 import java.util.StringTokenizer;
 
 /**
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class SplitTest {
 
     private static final int MAX_LOOP = 1;
 
     /**
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder();
@@ -26,8 +26,8 @@ public class SplitTest {
     }
 
     /**
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     private static void split(String str) {
         long start = System.currentTimeMillis();
@@ -42,8 +42,8 @@ public class SplitTest {
     }
 
     /**
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     private static void stringTokenizer(String str) {
         long start = System.currentTimeMillis();

@@ -5,8 +5,8 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class ListIteratorTest {
 
@@ -27,8 +27,8 @@ public class ListIteratorTest {
 
     /**
      * 普通 for 循环遍历
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     private static void normalFor() {
         long start = System.currentTimeMillis();
@@ -41,8 +41,8 @@ public class ListIteratorTest {
 
     /**
      * 增强 for 循环遍历
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     private static void enhancedFor() {
         long start = System.currentTimeMillis();
@@ -55,8 +55,8 @@ public class ListIteratorTest {
 
     /**
      * 迭代器 for 循环遍历
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     private static void iterator() {
         long start = System.currentTimeMillis();
@@ -69,8 +69,8 @@ public class ListIteratorTest {
 
     /**
      * 集合自带 forEach 遍历
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     private static void forEach() {
         long start = System.currentTimeMillis();

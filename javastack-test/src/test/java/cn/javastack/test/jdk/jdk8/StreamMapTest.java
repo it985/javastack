@@ -8,8 +8,8 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class StreamMapTest {
 
@@ -18,14 +18,14 @@ public class StreamMapTest {
 
     /**
      * map 转换
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void flatMap() {
         String[] arr1 = {"https://", "www", ".", "javastack", ".", "cn"};
         String[] arr2 = {"公众号", ":", "Java技术栈"};
-        String[] arr3 = {"作者", ":", "栈长"};
+        String[] arr3 = {"作者", ":", "R哥"};
 
         System.out.println("=====arrays list=====");
         List<String[]> list = Stream.of(arr1, arr2, arr3).collect(Collectors.toList());
@@ -42,8 +42,8 @@ public class StreamMapTest {
 
     /**
      * map 转换
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void map() {
@@ -56,8 +56,8 @@ public class StreamMapTest {
 
     /**
      * mapToLong 转换
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void mapToLong() {

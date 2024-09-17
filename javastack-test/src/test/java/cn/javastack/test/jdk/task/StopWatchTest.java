@@ -4,14 +4,14 @@ import org.apache.commons.lang3.time.StopWatch;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class StopWatchTest {
 
     /**
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void jdkWasteTime() throws InterruptedException {
@@ -21,8 +21,8 @@ public class StopWatchTest {
     }
 
     /**
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void commonsLang3WasteTime() throws InterruptedException {
@@ -51,12 +51,12 @@ public class StopWatchTest {
     }
 
     /**
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void springWasteTime() throws InterruptedException {
-        org.springframework.util.StopWatch sw = new org.springframework.util.StopWatch("公众号Java技术栈：测试耗时");
+        org.springframework.util.StopWatch sw = new org.springframework.util.StopWatch("公众号：Java技术栈：测试耗时");
 
         sw.start("任务1");
         Thread.sleep(1000);

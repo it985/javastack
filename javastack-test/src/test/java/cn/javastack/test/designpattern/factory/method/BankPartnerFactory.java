@@ -6,8 +6,8 @@ import cn.javastack.test.designpattern.factory.simple.Merchant;
 
 /**
  * 银行客户工厂
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class BankPartnerFactory implements CustomerFactory {
 

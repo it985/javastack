@@ -12,8 +12,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author: 栈长
- * @from: 公众号Java技术栈
+ * @author: R哥
+ * @from: 公众号：Java技术栈
  */
 public class SortTest {
 
@@ -32,8 +32,8 @@ public class SortTest {
 
     /**
      * jdk8 Collections 排序
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void sortWithCollections() {
@@ -51,8 +51,8 @@ public class SortTest {
 
     /**
      * jdk8 并行 Stream 排序
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void sortWithJdk8parallelStream() {
@@ -67,8 +67,8 @@ public class SortTest {
 
     /**
      * jdk8 Stream 排序
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void sortWithJdk8Stream() {
@@ -86,8 +86,8 @@ public class SortTest {
 
     /**
      * jdk8 组合排序，Comparator提供的静态方法，先按年纪排序，年纪相同的按名称排序
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void sortGroupWithJdk8() {
@@ -102,8 +102,8 @@ public class SortTest {
 
     /**
      * jdk8 Comparator 工具类排序（降序）
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void sortWithJdk8ComparatorDesc() {
@@ -118,8 +118,8 @@ public class SortTest {
 
     /**
      * jdk8 Comparator 工具类排序（升序）
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void sortWithJdk8ComparatorAsc() {
@@ -136,8 +136,8 @@ public class SortTest {
 
     /**
      * jdk8 静态方法引用排序
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void sortWithJdk8StaticMethodRef() {
@@ -152,8 +152,8 @@ public class SortTest {
 
     /**
      * jdk8 lambda 排序，不带参数类型
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void sortWithJdk8Lambda2() {
@@ -168,8 +168,8 @@ public class SortTest {
 
     /**
      * jdk8 lambda 排序，带参数类型
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void sortWithJdk8Lambda1() {
@@ -184,8 +184,8 @@ public class SortTest {
 
     /**
      * jdk8 之前的排序
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void sortPreJdk8() {
@@ -206,8 +206,8 @@ public class SortTest {
 
     /**
      * jdk8 实例方法引用排序
-     * @author: 栈长
-     * @from: 公众号Java技术栈
+     * @author: R哥
+     * @from: 公众号：Java技术栈
      */
     @Test
     public void sortWithJdk8InstanceMethodRef() {

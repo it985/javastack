@@ -6,7 +6,7 @@ import lombok.RequiredArgsConstructor;
 /**
  * 支付处理器抽象类
  * @author: R哥
- * @from: 公众号Java技术栈
+ * @from: 公众号：Java技术栈
  */
 @Data
 @RequiredArgsConstructor
